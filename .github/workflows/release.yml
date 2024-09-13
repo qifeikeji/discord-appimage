@@ -51,7 +51,7 @@ jobs:
        
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v1.0.0
+      uses: actions/upload-artifact@v3
       with:
         name: discord-continuous-x86_64.AppImage
         path: 'discord/dist'
@@ -121,7 +121,7 @@ jobs:
        
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v1.0.0
+      uses: actions/upload-artifact@v3
       with:
         name: discord-ptb-continuous-x86_64.AppImage
         path: 'discord/dist'
@@ -191,7 +191,7 @@ jobs:
        
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v1.0.0
+      uses: actions/upload-artifact@v3
       with:
         name: discord-canary-continuous-x86_64.AppImage
         path: 'discord/dist'
